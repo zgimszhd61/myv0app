@@ -1,0 +1,49 @@
+/* App.css */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .main-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #d1c4e9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+  }
+  
+  .question-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 10px;
+  }
+  
+  .submit-button {
+    background: none;
+    border: none;
+    color: #7b61ff;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .dropdown-container {
+    margin-top: 10px;
+  }
+  
+  .dropdown {
+    font-size: 1em;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
