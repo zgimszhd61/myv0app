@@ -37,6 +37,7 @@ import KnowledgeBaseInterfaceComponent from "@/components/knowledge-base-interfa
 import LimitedTimeOfferComponent from "@/components/limited-time-offer";
 import LiteraryContestComponent from "@/components/literary-contest";
 import MediaListComponent from "@/components/media-list";
+import MessagingAppComponent from "@/components/messaging-app";
 import MobileNavigationMenuComponent from "@/components/mobile-navigation-menu";
 import MovieDetailsComponent from "@/components/movie-details";
 import MovieListingCarouselComponent from "@/components/movie-listing-carousel";
@@ -61,6 +62,7 @@ import RefundManagementPageComponent from "@/components/refund-management-page";
 import RelatedContentComponent from "@/components/related-content";
 import ScrollableExperienceGalleryComponent from "@/components/scrollable-experience-gallery";
 import SidebarMenuComponent from "@/components/sidebar-menu";
+import SnykDashboard from "@/components/snyk-dashboard";
 // import SocialFeedComponent from "@/components/social-feed";
 import SocialMediaAnalyticsDashboardComponent from "@/components/social-media-analytics-dashboard";
 import SocialMediaFeedComponent from "@/components/social-media-feed";
@@ -75,6 +77,7 @@ import UserProfileComponent from "@/components/user-profile";
 import UserReviews from "@/components/user-reviews";
 import UserSettingsPage from "@/components/user-settings-page";
 import VideoStreamingPlatformComponent from "@/components/video-streaming-platform";
+import VulnerabilityDashboard from "@/components/vulnerability-dashboard";
 import Image from "next/image";
 
 export default function Home() {
@@ -196,6 +199,12 @@ export default function Home() {
         {/* <AirbnbRatingSystemComponent /> */}
 
         {/* <SocialMediaFeedComponent /> */}
+
+        {/* <SnykDashboard /> */}
+
+        {/* <VulnerabilityDashboard /> */}
+
+        {/* <MessagingAppComponent /> */}
 
     </div>
   );
